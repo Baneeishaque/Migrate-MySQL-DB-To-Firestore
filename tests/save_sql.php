@@ -8,4 +8,3 @@ require_once 'config.php';
 use MysqlToFirestore\MysqlHelper;
 
 MysqlHelper::save_sql($MYSQL_SERVER, $MYSQL_USER, $MYSQL_PASSWORD, $MYSQL_DATABASE, "sample/");
-// MysqlHelper::

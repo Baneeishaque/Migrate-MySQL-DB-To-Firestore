@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title></title>
@@ -14,10 +15,12 @@
         }
     </style>
 </head>
+
 <body>
-<a href="save.php">Save</a>
-<a href="download.php">Download</a>
-<a href="import.php">Import</a>
-<a href="table.php">Show Tables</a>
+    <a href="save_sql.php">Save DB as SQL File</a>
+    <a href="download_sql.php">Download DB as SQL File</a>
+    <a href="import_sql.php">Import</a>
+    <a href="tables.php">Show Tables</a>
 </body>
+
 </html>
