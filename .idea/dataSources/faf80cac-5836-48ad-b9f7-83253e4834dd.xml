@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="inventory@localhost">
-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.15">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.16">
     <root id="1">
       <ServerVersion>8.0.13</ServerVersion>
       <DefaultEngine>InnoDB</DefaultEngine>
@@ -18,12 +18,10 @@
     </schema>
     <schema id="5" parent="1" name="information_schema">
       <Collation>utf8_general_ci</Collation>
-      <Substituted>1</Substituted>
     </schema>
     <schema id="6" parent="1" name="inventory">
       <Current>1</Current>
       <Collation>utf8mb4_0900_ai_ci</Collation>
-      <Visible>1</Visible>
     </schema>
     <schema id="7" parent="1" name="mysql">
       <Collation>utf8mb4_0900_ai_ci</Collation>
