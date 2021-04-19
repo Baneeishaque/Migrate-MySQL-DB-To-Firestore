@@ -15,7 +15,7 @@
     "php": ">=5.3.0",
     "ext-mysqli": "*",
     "ext-grpc": "*",
-    "google/cloud-firestore": "^1.7"
+    "google/cloud-firestore": "^1.19"
   },
   "autoload": {
     "psr-0": {
