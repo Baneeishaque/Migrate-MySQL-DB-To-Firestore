@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "71f98314785bee9c6e629b0dddfaf4cd",
+    "content-hash": "500ddcd7cd2bf4d4d9fe85d222e14d5c",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -386,20 +386,20 @@
         },
         {
             "name": "grpc/grpc",
-            "version": "1.22.0",
+            "version": "1.36.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/grpc/grpc-php.git",
-                "reference": "88235e786ef9b55fcb049f00c5c5202f8086a299"
+                "reference": "6145dd917d340b579f0b663940b17cc93172b79a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/grpc/grpc-php/zipball/88235e786ef9b55fcb049f00c5c5202f8086a299",
-                "reference": "88235e786ef9b55fcb049f00c5c5202f8086a299",
+                "url": "https://api.github.com/repos/grpc/grpc-php/zipball/6145dd917d340b579f0b663940b17cc93172b79a",
+                "reference": "6145dd917d340b579f0b663940b17cc93172b79a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.0"
+                "php": ">=7.0.0"
             },
             "require-dev": {
                 "google/auth": "^v1.3.0"
@@ -423,7 +423,7 @@
             "keywords": [
                 "rpc"
             ],
-            "time": "2019-07-03T19:57:39+00:00"
+            "time": "2021-03-01T21:52:11+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -978,17 +978,17 @@
             ],
             "authors": [
                 {
+                    "name": "Ben Ramsey",
+                    "email": "ben@benramsey.com",
+                    "homepage": "https://benramsey.com"
+                },
+                {
                     "name": "Marijn Huizendveld",
                     "email": "marijn.huizendveld@gmail.com"
                 },
                 {
                     "name": "Thibaud Fabre",
                     "email": "thibaud@aztech.io"
-                },
-                {
-                    "name": "Ben Ramsey",
-                    "email": "ben@benramsey.com",
-                    "homepage": "https://benramsey.com"
                 }
             ],
             "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
@@ -1114,5 +1114,6 @@
         "ext-mysqli": "*",
         "ext-grpc": "*"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
