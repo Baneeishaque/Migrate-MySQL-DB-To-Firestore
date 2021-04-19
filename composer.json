@@ -10,8 +10,8 @@
     }
   ],
   "require": {
-    "grpc/grpc":"^v1.1.0",
-    "google/protobuf":"^v3.9.1",
+    "grpc/grpc": "^v1.1.0",
+    "google/protobuf": "^v3.9.1",
     "php": ">=5.3.0",
     "ext-mysqli": "*",
     "ext-grpc": "*",
